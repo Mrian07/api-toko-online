@@ -17,6 +17,13 @@
             "name": "Kurniawan Prasetyo",
             "email": "prassaiyan@gmail.com"
         }
-    ],
-    "minimum-stability": "dev"
+    ],	
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Prasudiro\\ApiTokoOnline\\": "vendor/prasudiro/api-toko-online/src/"
+        }
+    },
+    "minimum-stability": "dev",
+	"prefer-stable": true
 }
