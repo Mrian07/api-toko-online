@@ -24,6 +24,5 @@
             "email": "prassaiyan@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-	"prefer-stable": true
+    "minimum-stability": "stable",
 }
