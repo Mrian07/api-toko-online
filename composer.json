@@ -10,6 +10,12 @@
     "require-dev": {
         "phpunit/phpunit": "~4.0",
         "mockery/mockery": "~1.0"
+    },    
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Prasudiro\\ApiTokoOnline\\": "vendor/prasudiro/api-toko-online/src/"
+        }
     },
     "license": "MIT",
     "authors": [
@@ -17,13 +23,7 @@
             "name": "Kurniawan Prasetyo",
             "email": "prassaiyan@gmail.com"
         }
-    ],	
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/",
-            "Prasudiro\\ApiTokoOnline\\": "vendor/prasudiro/api-toko-online/src/"
-        }
-    },
+    ],
     "minimum-stability": "dev",
 	"prefer-stable": true
 }
